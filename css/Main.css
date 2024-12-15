@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.main{
+    background-image: url(../images/Home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.weather-container1{
+    background-image: url(../images/bg-cart.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.weather-container2{
+    background-image: url(../images/after_noon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.weather-container3{
+    background-image: url(../images/night.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    background-image: url(../images/bg-cart.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 100;
+}
+.nav-link-custom{
+    text-align: center;
+}
+.nav-link-custom:hover {
+    color: aquamarine !important;
+    border-bottom: 2px solid #0dcaf0; 
+    border-radius: 20px; 
+    transition: all 0.5s ease;
+}
